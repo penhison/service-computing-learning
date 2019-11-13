@@ -1,6 +1,8 @@
 # 开发 web 服务程序
 作业地址： [https://pmlpml.github.io/ServiceComputingOnCloud/ex-cloudgo-start](https://pmlpml.github.io/ServiceComputingOnCloud/ex-cloudgo-start)
 
+扩展要求博客链接：[https://blog.csdn.net/panghch/article/details/103056515](https://blog.csdn.net/panghch/article/details/103056515)
+
 ## 作业要求
 - 基本要求
 	1. 编程 web 服务程序 类似 cloudgo 应用。
@@ -9,6 +11,14 @@
 	2. 使用 curl 测试，将测试结果写入 README.md
 	3. 使用 ab 测试，将测试结果写入 README.md。并解释重要参数。
 
+- 扩展要求
+选择以下一个或多个任务，以博客的形式提交。
+
+	1. 选择 net/http 源码，通过源码分析、解释一些关键功能实现
+	2. 选择简单的库，如 mux 等，通过源码分析、解释它是如何实现扩展的原理，包括一些 golang 程序设计技巧。
+	3. 在 docker hub 申请账号，从 github 构建 cloudgo 的 docker 镜像，最后在 Amazon 云容器服务中部署。
+	4. 实现 Github - Travis CI - Docker hub - Amazon “不落地”云软件开发流水线
+	5. 其他 web 开发话题
 
 ## 实验过程
 本次实验基于cloudgo的基础上添加了使用GET方法模拟注册和登录的功能。
